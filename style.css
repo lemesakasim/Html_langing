@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.header{
+    padding: 30px;
+    margin: 20px auto;
+    text-align: center;
+}
+header >.title{
+    margin-bottom: 10px;
+}
+
+.tribute{
+    display: grid;
+    max-width: 78rem;
+    margin: 0px auto;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 50px;
+}
+
+.tribute img{
+    max-width: 100%;
+}
+
+.bio {
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+}
+
+.bio > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.bio >p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+
+.bio > hr {
+    margin-top: 2rem;
+}
